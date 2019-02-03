@@ -16,16 +16,16 @@
 		<section class="toc-wrapper"><%- toc(post.content) %></section>
 	<% } %>
 	<section class="article typo">
-  	<div class="article-entry" itemprop="articleBody">
-    	<%- post.content %>
-  	</div>
 	  <% if (post.tags && post.tags.length) { %>
 	  <div class="article-tags tags">
       <% post.tags.each(function(item){ %>
         <a href="<%- url_for(item.path) %>"><%=item.name %></a>
       <%})%>
 	  </div>
-    <% } %>
+		<% } %>
+  	<div class="article-entry" itemprop="articleBody">
+			<%- post.content %>
+		</div>
 		
 	<% if(post.prev || post.next){ %>
 		<div class="art-item-footer">
