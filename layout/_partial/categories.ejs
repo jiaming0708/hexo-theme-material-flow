@@ -8,4 +8,7 @@
     <div class='cats'>
         <%- cats.join(', ') %>
     </div>
+    <% if (config.symbols_count_time){ %>
+        <span class="readtime"><%- symbolsTime(post.content) %></span>
+    <% } %>
 <% } %>
