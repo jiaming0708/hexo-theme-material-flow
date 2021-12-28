@@ -44,5 +44,3 @@ less:
 
 # use url, not username
 social:
-- slug: rss
-  url: /atom.xml

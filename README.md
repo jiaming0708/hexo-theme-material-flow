@@ -38,6 +38,7 @@ default only have rss in the list, support these icons
 * pinterest
 * tumblr
 * twitter
+* rss
 
 please set the full url, not username
 ```
