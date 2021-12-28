@@ -6,39 +6,44 @@ See [DEMO](https://jiaming0708.github.io)
 
 ## Installation
 ```bash
-# change to work dir
-cd /your_blog_dir/
-# install dependencies
-npm i -S hexo-generator-search hexo-generator-feed hexo-renderer-less hexo-autoprefixer hexo-generator-json-content
-# download source
-git clone https://github.com/jiaming0708/hexo-theme-material-flow themes/material-flow
+npm i hexo-theme-material-flow
+yarn add hexo-theme-material-flow
 ```
 
 ## Configuration
 1. Change the value of `theme` to `material-flow` in `_config.yml`.
-2. Put your avatar && favicon images to `source/images/`.
-3. Edit `_config.yml` and `themes/material-flow/_config.yml` for your needs.
+2. Create a config file for theme, `_config.material-flow.yml`.
+3. Put your avatar && favicon images to `source/images/`.
+4. Edit `_config.yml` and `themes/material-flow/_config.yml` for your needs.
 
 
 Here are some examples:
 1. [_config.yml](https://github.com/jiaming0708/blog-source/blob/master/_config.yml)
-2. [themes/material-flow/_config.yml](https://github.com/jiaming0708/blog-source/blob/master/themes/material-flow/_config.yml)
+2. [_config_material-flow.yml](https://github.com/jiaming0708/blog-source/blob/master/config_material-flow.yml)
 
-## Enable article read-time
-install [hexo-symbols-count-time](https://github.com/theme-next/hexo-symbols-count-time)
-
-```bash
-npm i hexo-symbols-count-time
+### links
+default is empty list
+```
+links:
+  - name: yahoo taiwan
+    url: https://tw.yahoo.com
 ```
 
-add config in `_config.yml` of root of your blog
-```yml
-# article read time
-symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: true
-  total_time: true
+### social medial
+default only have rss in the list, support these icons
+* facebook
+* github
+* google
+* instagram
+* pinterest
+* tumblr
+* twitter
+
+please set the full url, not username
+```
+social:
+- slug: rss
+  url: /atom.xml
 ```
 
 ## More 
