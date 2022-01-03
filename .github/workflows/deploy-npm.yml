@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Set tag to output
+        id: vars
+        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
       - name: Release
         uses: docker://antonyurchenko/git-release:latest
         env:
@@ -28,9 +31,6 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: Set output
-        id: vars
-        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
       # notify
       - name: Notify
         if: always()
@@ -39,5 +39,5 @@ jobs:
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            ${{ secrets.GITHUB_REPOSITORY }} has new version ${{ steps.vars.outputs.tag }}
+            ${{ github.repository }} has new version ${{ steps.vars.outputs.tag }}
             Status: ${{ job.status }}
