@@ -36,5 +36,5 @@ jobs:
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            ${{ GITHUB_REPOSITORY }} has new version ${{ github.event.release.tag_name }}
+            ${{ secrets.GITHUB_REPOSITORY }} has new version ${{ github.event.release.tag_name }}
             Status: ${{ job.status }}
