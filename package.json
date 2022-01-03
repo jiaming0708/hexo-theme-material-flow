@@ -21,7 +21,7 @@
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-json-content": "^4.2.3",
     "hexo-generator-search": "^2.4.3",
-    "hexo-renderer-less": "^2.0.2",
+    "hexo-renderer-less": "^4.0.0",
     "hexo-symbols-count-time": "^0.7.1"
   }
 }
