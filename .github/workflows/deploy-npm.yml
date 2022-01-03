@@ -25,9 +25,12 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: yarn
-      - run: yarn publish
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Set output
+        id: vars
+        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
       # notify
       - name: Notify
         if: always()
@@ -36,5 +39,5 @@ jobs:
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            ${{ secrets.GITHUB_REPOSITORY }} has new version ${{ github.event.release.tag_name }}
+            ${{ secrets.GITHUB_REPOSITORY }} has new version ${{ steps.vars.outputs.tag }}
             Status: ${{ job.status }}
