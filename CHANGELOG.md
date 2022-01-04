@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.1.2] - 2022-01-04
+- add dependencies
+
 ## [1.1.1] - 2022-01-04
 - try to add `hexo` in dependence
 
