@@ -333,9 +333,9 @@ ul.h-list {
 
 .l_body {
     position: relative;
-    padding: 2 * @gap 0 @gap;
+    padding: (2 * @gap) 0 @gap;
     @media(max-width: @on-phone) {
-        padding: @gap @gap/2 @gap/2;
+        padding: @gap (@gap/2) (@gap/2);
     }
 }
 

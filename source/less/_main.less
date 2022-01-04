@@ -5,7 +5,7 @@
     .post-list {
         position: relative;
         margin: 0px auto;
-        margin: -@gap /2;
+        margin: (-@gap /2);
         @media(max-width: @on-phone) {
             margin: 0;
         }
@@ -27,7 +27,7 @@
     }
     .mobile-post() {
         .post {
-            padding: 1.5 * @gap @gap;
+            padding: (1.5 * @gap) @gap;
             .meta {
                 .title {
                     font-size: @article-title-size-sm;
@@ -54,7 +54,7 @@
         }
     }
     .post-wrapper {
-        padding: @gap /2;
+        padding: @gap/2;
         .mobile-post();
         .tags {
             margin-top: 20px;
@@ -69,7 +69,7 @@
     .post {
         position: relative;
         margin: 0 auto;
-        padding: 2 * @gap 1.5*@gap;
+        padding: (2 * @gap) (1.5*@gap);
         //max-width: 768px;
         background: white;
         &:extend(.z-depth-1);
