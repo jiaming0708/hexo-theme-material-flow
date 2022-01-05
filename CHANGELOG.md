@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.1.4] - 2022-01-05
+### Fix
+- the variable calculate in less
+
 ## [1.1.3] - 2022-01-04
 ### Fix
 - the variable calculate in less
