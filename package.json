@@ -16,7 +16,7 @@
     "url": "https://github.com/jiaming0708/hexo-theme-material-flow/issues"
   },
   "homepage": "https://github.com/jiaming0708/hexo-theme-material-flow#readme",
-  "devDependencies": {
+  "dependencies": {
     "hexo-autoprefixer": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-json-content": "^4.2.3",
