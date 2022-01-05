@@ -4,7 +4,6 @@
   "description": "Fork from [kevin tan](https://github.com/stkevintan/hexo-theme-material-flow)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,7 +15,7 @@
     "url": "https://github.com/jiaming0708/hexo-theme-material-flow/issues"
   },
   "homepage": "https://github.com/jiaming0708/hexo-theme-material-flow#readme",
-  "dependencies": {
+  "devDependencies": {
     "hexo-autoprefixer": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-json-content": "^4.2.3",
