@@ -1,6 +1,6 @@
 .tog{
   position:fixed;
-  top: @header-height + @gap * 2;
+  top: (@header-height + @gap * 2);
   right: ~"calc((100% - @{container-width})/2)";
   transition: all .24s ease-out;
   @media(max-width: @container-width){
@@ -12,7 +12,7 @@
       transform: translateX(-@side-width);
     }
   }
-  width: @side-width + 6px;
+  width: (@side-width + 6px);
   z-index:3;
   &:extend(.z-depth-2);
   padding: @gap;

@@ -1,6 +1,6 @@
 .l_main {
     width: 100%;
-    padding-right: @side-width + @gap;
+    padding-right: (@side-width + @gap);
     float: left;
     .post-list {
         position: relative;
@@ -12,7 +12,7 @@
     }
     #comments {
         position: relative;
-        padding-top: 1.5*@gap;
+        padding-top: (1.5*@gap);
         background: white;
         @media (max-width: @on-phone) {
             padding-top: @gap;
@@ -54,12 +54,12 @@
         }
     }
     .post-wrapper {
-        padding: @gap/2;
+        padding: (@gap/2);
         .mobile-post();
         .tags {
             margin-top: 20px;
-            margin-bottom: -1.5*@gap;
-            padding-bottom: @gap/2;
+            margin-bottom: (-1.5*@gap);
+            padding-bottom: (@gap/2);
         }
         @media(max-width:@on-phone) {
             padding-left: 0;
@@ -105,8 +105,8 @@
                     display: inline-block;
                     @border-width: 8px;
                     content: '';
-                    border-top: @border-width/2 solid transparent;
-                    border-bottom: @border-width/2 solid transparent;
+                    border-top: (@border-width/2) solid transparent;
+                    border-bottom: (@border-width/2) solid transparent;
                     border-left: @border-width solid @secondary-color;
                 }
                 a {
@@ -131,10 +131,10 @@
             }
         }
         .full-width,.highlight{
-            margin-left: -1.5* @gap;
-            margin-right: -1.5* @gap;
-            padding-left: 1.5* @gap;
-            padding-right: 1.5* @gap;
+            margin-left: (-1.5* @gap);
+            margin-right: (-1.5* @gap);
+            padding-left: (1.5* @gap);
+            padding-right: (1.5* @gap);
             width:~"calc(100% + 3 * @{gap})";
         }
         img {
