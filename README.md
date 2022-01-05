@@ -10,6 +10,11 @@ npm i hexo-theme-material-flow
 yarn add hexo-theme-material-flow
 ```
 
+use `ejs` and `less` for this theme, also need to install
+```bash
+yarn add hexo-renderer-less hexo-renderer-less
+```
+
 ## Configuration
 1. Change the value of `theme` to `material-flow` in `_config.yml`.
 2. Create a config file for theme, `_config.material-flow.yml`.
