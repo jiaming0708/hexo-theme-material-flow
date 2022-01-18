@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.1.5] - 2022-01-18
+- fork [hexo-generator-json-content](https://github.com/alexbruno/hexo-generator-json-content) repo, and update dependencies version
+
 ## [1.1.4] - 2022-01-05
 ### Fix
 - the variable calculate in less
