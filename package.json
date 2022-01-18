@@ -3,8 +3,7 @@
   "version": "1.1.4",
   "description": "Fork from [kevin tan](https://github.com/stkevintan/hexo-theme-material-flow)",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jiaming0708/hexo-theme-material-flow.git"
@@ -18,7 +17,7 @@
   "devDependencies": {
     "hexo-autoprefixer": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
-    "hexo-generator-json-content": "^4.2.3",
+    "hexo-generator-json-content": "github:jiaming0708/hexo-generator-json-content#v4.2.4",
     "hexo-generator-search": "^2.4.3",
     "hexo-renderer-less": "^4.0.0",
     "hexo-symbols-count-time": "github:jiaming0708/hexo-symbols-count-time#v0.7.2"
