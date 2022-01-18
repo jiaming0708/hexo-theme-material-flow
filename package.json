@@ -15,7 +15,6 @@
   },
   "homepage": "https://github.com/jiaming0708/hexo-theme-material-flow#readme",
   "devDependencies": {
-    "hexo-autoprefixer": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-json-content": "github:jiaming0708/hexo-generator-json-content#v4.2.4",
     "hexo-generator-search": "^2.4.3",
