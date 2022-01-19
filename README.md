@@ -1,3 +1,5 @@
+[![Publish Package to npmjs](https://github.com/jiaming0708/hexo-theme-material-flow/actions/workflows/deploy-npm.yml/badge.svg)](https://github.com/jiaming0708/hexo-theme-material-flow/actions/workflows/deploy-npm.yml) [![npm version](https://badge.fury.io/js/hexo-theme-material-flow.svg)](https://badge.fury.io/js/hexo-theme-material-flow)
+
 # Material Flow
 
 Fork from [kevin tan](https://github.com/stkevintan/hexo-theme-material-flow)
