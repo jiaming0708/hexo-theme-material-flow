@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.1.6] - 2022-01-19
+- remove library `hexo-autoprefixer`
+- show badge on readme
+- move GA script to head
+- set script async and font link preload
+
 ## [1.1.5] - 2022-01-18
 - fork [hexo-generator-json-content](https://github.com/alexbruno/hexo-generator-json-content) repo, and update dependencies version
 
