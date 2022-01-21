@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.1.8] - 2022-01-21
+- remove async attribute from jquery
+
 ## [1.1.7] - 2022-01-21
 - change library `hexo-generator-json-content` to `hexo-generator-json-content-jimmy`
 
