@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.1.7] - 2022-01-21
+- change library `hexo-generator-json-content` to `hexo-generator-json-content-jimmy`
+
 ## [1.1.6] - 2022-01-19
 - remove library `hexo-autoprefixer`
 - show badge on readme
