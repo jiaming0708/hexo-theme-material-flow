@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.1.9] - 2022-01-21
+- remove async attribute
+
 ## [1.1.8] - 2022-01-21
 - remove async attribute from jquery
 
