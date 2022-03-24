@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2022-03-24
+- Bump prismjs from 1.25.0 to 1.27.0
+- support GA4(Gtag)
+
 ## [1.1.9] - 2022-01-21
 - remove async attribute
 
