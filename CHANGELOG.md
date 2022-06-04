@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.2.1] - 2022-06-04
+- Bump hexo-generator-json-content-jimmy from 4.2.6 to 4.2.8
+
 ## [1.2.0] - 2022-03-24
 - Bump prismjs from 1.25.0 to 1.27.0
 - support GA4(Gtag)
