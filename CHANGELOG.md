@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.3.0] - 2022-06-30
+- remove baidu search
+- support google_adsense
+
 ## [1.2.1] - 2022-06-04
 - Bump hexo-generator-json-content-jimmy from 4.2.6 to 4.2.8
 
