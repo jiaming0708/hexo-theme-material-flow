@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.3.2] - 2022-07-22
+- Lost update yarn.lock
+
 ## [1.3.1] - 2022-07-22
 - Bump hexo-generator-json-content-jimmy from 4.2.6 to 4.3.0
 
