@@ -53,6 +53,11 @@ cross-spawn@^7.0.0:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+dayjs@^1.11.4:
+  version "1.11.4"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.4.tgz#3b3c10ca378140d8917e06ebc13a4922af4f433e"
+  integrity sha512-Zj/lPM5hOvQ1Bf7uAvewDaUcsJoI6JmNqmHhHl3nyumwe0XHwt8sWdOVAPACJzCebL8gQCi+K49w7iKWnGwX9g==
+
 debug@^3.2.6:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
@@ -127,14 +132,14 @@ hexo-generator-feed@^3.0.0:
     hexo-util "^2.1.0"
     nunjucks "^3.0.0"
 
-hexo-generator-json-content-jimmy@^4.2.6:
-  version "4.2.8"
-  resolved "https://registry.yarnpkg.com/hexo-generator-json-content-jimmy/-/hexo-generator-json-content-jimmy-4.2.8.tgz#a96a3955b9e03b2a9c7bc434083663af05ca1e8a"
-  integrity sha512-7eI76wFpcz1jn4FKMpADPo50krMqnFJjgOgJx//3ZV5Mu6viaFY+uzggwGzvFZ91M998U6tiyR974ssq1EKAhA==
+hexo-generator-json-content-jimmy@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-json-content-jimmy/-/hexo-generator-json-content-jimmy-4.3.0.tgz#ac3387eef05a501956b8d39b0f0ac3d111474c9c"
+  integrity sha512-IlV47D3Ln9pXrtQAYkBDwfgjZBfPMMqg9af61eynQ9ZLcbMJ/eEVJe4N/avcRTEfZlohx5appvsb8uSoH/og5w==
   dependencies:
+    dayjs "^1.11.4"
     hexo-util latest
     keyword-extractor latest
-    moment latest
 
 hexo-generator-search@^2.4.3:
   version "2.4.3"
@@ -268,11 +273,6 @@ min-indent@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/min-indent/-/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
   integrity sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
-
-moment@latest:
-  version "2.29.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
-  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
 
 ms@^2.1.1:
   version "2.1.3"
