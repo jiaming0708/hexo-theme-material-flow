@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.4.0] - 2022-08-17
+- support giscus setting
+- change cdn provider
+
 ## [1.3.2] - 2022-07-22
 - Lost update yarn.lock
 
