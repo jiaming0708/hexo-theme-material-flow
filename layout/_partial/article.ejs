@@ -47,6 +47,21 @@
 			<div id="disqus_thread"></div>
 		</section>
 	<% } %>
+	<% if (post.comments && theme.giscus.enable){ %> 
+		<section id="comments">
+			<script src="https://giscus.app/client.js"
+				data-repo="<%=theme.giscus.repo %>"
+				data-repo-id="<%=theme.giscus.repo_id %>"
+				data-category="<%=theme.giscus.category %>"
+				data-category-id="<%=theme.giscus.category_id %>"
+				data-mapping="<%=theme.giscus.mapping %>"
+				data-reactions-enabled="<%=theme.giscus.reactions_enabled %>"
+				data-theme="<%=theme.giscus.theme %>"
+				crossorigin="anonymous"
+				async>
+			</script>
+		</section>
+	<% } %>
 </article>
 <script>
 	window.subData = {
