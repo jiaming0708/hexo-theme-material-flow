@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.4.1] - 2022-09-30
+- support thumbnail in page
+
 ## [1.4.0] - 2022-08-17
 - support giscus setting
 - change cdn provider
