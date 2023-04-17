@@ -7,8 +7,8 @@
       </a>
     </h2>
     <% } %>
-    <time>
-      <%= date(post.date, 'MMM D, YYYY') %>
+    <time datetime="<%= date(post.date, 'YYYY-MM-DD') %>">
+      <%= date(post.date, 'YYYY-MM-DD') %>
     </time>
 		<%- partial('categories',{post:post}) %>
   </section>
