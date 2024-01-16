@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-material-flow",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "description": "Fork from [kevin tan](https://github.com/stkevintan/hexo-theme-material-flow)",
   "main": "index.js",
   "scripts": {},
@@ -14,6 +14,5 @@
     "url": "https://github.com/jiaming0708/hexo-theme-material-flow/issues"
   },
   "homepage": "https://github.com/jiaming0708/hexo-theme-material-flow#readme",
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
