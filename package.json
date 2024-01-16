@@ -19,6 +19,6 @@
     "hexo-generator-search": "^2.4.3",
     "hexo-renderer-less": "^4.0.0",
     "hexo-symbols-count-time": "github:jiaming0708/hexo-symbols-count-time#v0.7.2",
-    "hexo-generator-json-content-jimmy": "^4.3.0"
+    "hexo-generator-json-content-jimmy": "^4.4.1"
   }
 }
