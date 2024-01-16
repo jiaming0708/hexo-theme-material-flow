@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.4.3] - 2024-01-16
+- Bump hexo-generator-json-content-jimmy from 4.3.0 to 4.4.1
+
 ## [1.4.2] - 2024-01-16
 - Bump semver from 5.7.1 to 5.7.2
 - Bump nunjucks from 3.2.3 to 3.2.4
