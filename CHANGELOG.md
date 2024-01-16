@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.4.2] - 2024-01-16
+- Bump semver from 5.7.1 to 5.7.2
+- Bump nunjucks from 3.2.3 to 3.2.4
+
 ## [1.4.1] - 2022-09-30
 - support thumbnail in page
 
