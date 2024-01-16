@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.5.0] - 2024-01-16
+- remove all dev dependents
+
 ## [1.4.3] - 2024-01-16
 - Bump hexo-generator-json-content-jimmy from 4.3.0 to 4.4.1
 
