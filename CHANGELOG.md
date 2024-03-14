@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.6.0] - 2024-01-16
+- update google adsense script
+
 ## [1.5.0] - 2024-01-16
 - remove all dev dependents
 
