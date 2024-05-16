@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.6.3] - 2024-05-16
+- refine date color
+
 ## [1.6.2] - 2024-05-16
 - refine tag cloud color
 
