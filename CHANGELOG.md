@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.6.2] - 2024-05-16
+- refine tag cloud color
+
 ## [1.6.1] - 2024-05-16
 - set lang=zh-Hant-TW on html
 - set maximum-scale be 2
