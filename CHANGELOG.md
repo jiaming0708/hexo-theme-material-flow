@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.6.1] - 2024-05-16
+- set lang=zh-Hant-TW on html
+- set maximum-scale be 2
+- refine color
+
 ## [1.6.0] - 2024-01-16
 - update google adsense script
 
