@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.7.3] - 2024-05-23
+- remove customSearch
+
 ## [1.7.2] - 2024-05-23
 - remove scrollreveal
 
