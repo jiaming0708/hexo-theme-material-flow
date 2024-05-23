@@ -2,7 +2,10 @@
 
 ## [Unreleased]
 
-## [1.7.0] - 2024-05-16
+## [1.7.1] - 2024-05-23
+- remove wave
+
+## [1.7.0] - 2024-05-23
 - remove jquery dependence
 - remove ga script(replace with gtag)
 
