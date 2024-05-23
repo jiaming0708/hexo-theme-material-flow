@@ -136,14 +136,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    function setScrollReveal() {
-        const revealElems = document.querySelectorAll('.reveal');
-        if (!revealElems.length) return;
-
-        const sr = ScrollReveal({ distance: 0 });
-        sr.reveal('.reveal');
-    }
-
     function setTocToggle() {
         const toc = document.querySelector('.toc-wrapper');
         if (!toc) return;
@@ -226,7 +218,6 @@ document.addEventListener("DOMContentLoaded", function() {
     setHeaderMenu();
     setHeaderMenuPhone();
     setHeaderSearch();
-    setScrollReveal();
     setTocToggle();
     initializeCustomSearch();
 
