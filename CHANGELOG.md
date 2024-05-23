@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.7.0] - 2024-05-16
+- remove jquery dependence
+- remove ga script(replace with gtag)
+
 ## [1.6.3] - 2024-05-16
 - refine date color
 
