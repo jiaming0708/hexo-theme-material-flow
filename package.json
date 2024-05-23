@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-material-flow",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Fork from [kevin tan](https://github.com/stkevintan/hexo-theme-material-flow)",
   "main": "index.js",
   "scripts": {},
