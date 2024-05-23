@@ -243,7 +243,7 @@ document.addEventListener("DOMContentLoaded", function() {
     initializeCustomSearch();
 
     // Additional functions
-    $(".article .video-container").fitVids();
+    // $(".article .video-container").fitVids();
 
     setTimeout(() => {
         document.getElementById('loading-bar-wrapper').style.display = 'none';
