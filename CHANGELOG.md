@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.7.2] - 2024-05-23
+- remove scrollreveal
+
 ## [1.7.1] - 2024-05-23
 - remove wave
 
